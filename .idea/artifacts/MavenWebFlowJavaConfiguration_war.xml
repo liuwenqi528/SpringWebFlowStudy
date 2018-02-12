@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MavenWebFlowJavaConfiguration:war">
+    <output-path>$PROJECT_DIR$/MavenWebFlowJavaConfiguration/target</output-path>
+    <root id="archive" name="MavenWebFlowJavaConfiguration-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MavenWebFlowJavaConfiguration:war exploded" />
+    </root>
+  </artifact>
+</component>

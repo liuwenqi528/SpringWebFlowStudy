@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaOne/JavaOne.iml" filepath="$PROJECT_DIR$/JavaOne/JavaOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTwo/JavaTwo.iml" filepath="$PROJECT_DIR$/JavaTwo/JavaTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenWebDemo/MavenWebDemo.iml" filepath="$PROJECT_DIR$/MavenWebDemo/MavenWebDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenWebFlowJavaConfiguration/MavenWebFlowJavaConfiguration.iml" filepath="$PROJECT_DIR$/MavenWebFlowJavaConfiguration/MavenWebFlowJavaConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenWebFlowXMLConfiguration/MavenWebFlowXMLConfiguration.iml" filepath="$PROJECT_DIR$/MavenWebFlowXMLConfiguration/MavenWebFlowXMLConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+    </modules>
+  </component>
+</project>
