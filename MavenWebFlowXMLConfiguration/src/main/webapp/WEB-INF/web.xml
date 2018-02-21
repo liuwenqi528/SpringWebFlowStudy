@@ -4,8 +4,18 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
-
-
+    <!--全局范围内环境参数初始化-->
+    <context-param>
+        <!--参数名称-->
+        <param-name>contextConfigLocation</param-name>
+        <!--参数取值-->
+        <param-value>classpath:config/spring-jpa.xml</param-value>
+    </context-param>
+    <!--监听器配置-->
+    <!--例:spring监听器-->
+    <listener>        <!--用来设定Listener接口-->
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class><!--定义Listener的类名称-->
+    </listener>
     <!-- 配置SpringWebFlow需要的servlet -->
     <servlet>
         <servlet-name>CartServlet</servlet-name>

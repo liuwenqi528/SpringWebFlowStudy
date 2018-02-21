@@ -13,6 +13,6 @@
 <body>
 <h1>Hello!</h1>
 <br />
-<a href="shopping.do">View Cart</a>
+<a href="shopping.do">View Cart2222</a>
 </body>
 </html>

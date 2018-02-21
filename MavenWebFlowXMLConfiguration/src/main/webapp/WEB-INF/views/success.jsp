@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>index</title>
+    <title>密码修改成功</title>
 </head>
 <body>
-<h1>Hello!</h1>
-<br />
-<a href="spring/shopping.do">View Cart333</a>
+<h1>密码修改成功!</h1>
+旧密码：${oldPwd} 新密码：${newPwd}
+
 </body>
 </html>

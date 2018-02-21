@@ -33,6 +33,7 @@
 
     <webflow:flow-registry id="flowRegistry" flow-builder-services="flowBuilderServices">
         <webflow:flow-location path="classpath:/webflow/shopping.xml" id="shopping"/>
+        <webflow:flow-location path="classpath:/webflow/updatePassword.xml" id="updatePassword"/>
     </webflow:flow-registry>
 
     <!--Web Flow 中的视图通过 MVC 框架的视图技术来呈现 -->
@@ -62,7 +63,7 @@
         <!-- /shopping.do 请求由 flowController 来处理 -->
         <!-- 不管设成 /shopping.do 还是设成 /shopping ，或者 /shopping.htm ，效果都是一样的， flowController 都会去找 id 为 shopping的flow来执行 -->
         <property name="mappings">
-            <value>/shopping.do=flowController</value>
+            <value>/*.do=flowController</value>
         </property>
         <property name="defaultHandler">
             <!-- UrlFilenameViewController 会将 "/index" 这样的请求映射成名为 "index" 的视图 -->
